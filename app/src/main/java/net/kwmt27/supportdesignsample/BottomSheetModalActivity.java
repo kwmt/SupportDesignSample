@@ -11,6 +11,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+/**
+ * 参考: https://github.com/android/platform_frameworks_support/blob/master/samples/SupportDesignDemos/src/com/example/android/support/design/widget/BottomSheetModalBase.java
+ */
 public class BottomSheetModalActivity extends AppCompatActivity {
 
     private static final String FRAGMENT_MODAL = "modal";
