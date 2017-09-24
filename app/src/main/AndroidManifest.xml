@@ -20,6 +20,21 @@
         </activity>
         <activity android:name=".BottomSheetModalActivity">
         </activity>
+        <activity
+            android:name=".DeeplinkActivity"
+            android:theme="@style/AppTheme.Translucent">
+            <intent-filter android:label="フィルタ">
+                <action android:name="android.intent.action.VIEW"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+
+                <data
+                    android:host="kwmt27.net"
+                    android:pathPrefix="/tags"
+                    android:scheme="http"/>
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
