@@ -30,9 +30,9 @@
                 <category android:name="android.intent.category.BROWSABLE"/>
 
                 <data
-                    android:host="kwmt27.net"
-                    android:pathPrefix="/tags"
-                    android:scheme="http"/>
+                    android:host="news.ycombinator.com"
+                    android:pathPrefix="/user"
+                    android:scheme="https"/>
             </intent-filter>
         </activity>
     </application>
